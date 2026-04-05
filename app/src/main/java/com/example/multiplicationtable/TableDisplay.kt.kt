@@ -32,6 +32,21 @@ class MainActivity2 : AppCompatActivity() {
                 counter++
                 continue
             }
+            val answer = tableNumber * counter
+            /* display as:
+            5x1=5
+            5x2=10
+            5x3=15
+            5x4=20
+            5x5=25
+            5x6=30
+            5x7=35
+            5x8=40
+            5x9=45
+            */
+            timesDisplay += "$tableNumber x $counter = $answer\n"
+            // increasing counter 
+            counter++
 
         }
 
