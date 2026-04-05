@@ -1,19 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#AF549D">
+
+    <!-- Titre -->
+
+    <!-- Sous-titre -->
+
+    <!-- Input -->
+
+    <!-- Bouton -->
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/titleTxt"
+        android:layout_width="401dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#2A2828"
+        android:gravity="center"
+        android:text="Multiplication Tables"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/numInput"
+        android:layout_width="386dp"
+        android:layout_height="91dp"
+        android:layout_margin="24dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Enter a number"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/multiplybtn"
+        android:layout_width="259dp"
+        android:layout_height="92dp"
+        android:layout_margin="24dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/edittext_bg"
+        android:backgroundTint="#F8F7F4"
+        android:backgroundTintMode="add"
+        android:text="Multiply"
+        android:textColor="#FFFFFF"
+        app:iconTint="#F4EEEE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/numInput" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

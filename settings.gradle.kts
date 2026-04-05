@@ -24,4 +24,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Multiply app"
 include(":app")
+include(":app")
+include(":app")
  
