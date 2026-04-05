@@ -7,4 +7,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.multiplicationtable.TableDisplay.kt">
 
+    <TextView
+        android:id="@+id/Table"
+        android:layout_width="230dp"
+        android:layout_height="153dp"
+        android:text="Table"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="254dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
