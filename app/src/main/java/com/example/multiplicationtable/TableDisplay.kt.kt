@@ -23,6 +23,18 @@ class MainActivity2 : AppCompatActivity() {
         var timesDisplay: String ="$tableNumber x table\n\n"
         // creating counter for while loop
         var counter = 1
+        // setting the text of the table to the table number times 1 to 10
+        Table.text = timesDisplay
+        // while loop to display the table
+        while (counter <= 10) {
+            // skip 3
+            if (counter == 3) {
+                counter++
+                continue
+            }
+
+        }
+
 
 
 
