@@ -1,27 +1,17 @@
 package com.example.multiplicationtable
 
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.multiplyapp.R
 
-class MainActivity : AppCompatActivity() {
+class TableDisplay.kt : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-        // Created variables for the buttons and the input
-        val multiplybtn = findViewById<Button>(R.id.multiplybtn)
-        val numInput = findViewById<EditText>(R.id.numInput)
-        // Created an on click listener for multiply button
-        multiplybtn.setOnClickListener {
-            // Create an intent to go to the multiply activity
-            val intent = Intent(this, MultiplyActivity::class.java)
-        }
+        setContentView(R.layout.activity_table)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
