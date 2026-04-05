@@ -20,6 +20,9 @@ class MainActivity2 : AppCompatActivity() {
         // converting the table number to an integer
         val tableNumber = tableString!!.toInt()
         val Table = findViewById<TextView>(R.id.Table)
+        var timesDisplay: String ="$tableNumber x table\n\n"
+        // creating counter for while loop
+        var counter = 1
 
 
 
