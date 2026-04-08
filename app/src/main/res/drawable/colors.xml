@@ -1,5 +1,4 @@
-<color name="primary" color="">#6C63FF</color>
-<color name="primaryDark">#4B47CC</color>
-<color name="background">#F5F7FA</color>
-<color name="textprimary">#333333</color>
-<color name="textsecondary">#777777</color>
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/primary" />
+</shape>

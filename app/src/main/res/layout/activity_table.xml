@@ -5,14 +5,24 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#380840"
+    android:textAlignment="center"
     tools:context="com.example.multiplicationtable.TableDisplay.kt">
 
     <TextView
         android:id="@+id/Table"
-        android:layout_width="230dp"
-        android:layout_height="153dp"
+        android:layout_width="286dp"
+        android:layout_height="96dp"
+        android:background="#67366A"
+        android:backgroundTint="#A17FE6"
         android:text="Table"
+        android:textAlignment="inherit"
+        android:textColor="#FAF5F5"
+        android:textCursorDrawable="@drawable/edittext_bg"
+        android:textDirection="locale"
         android:textSize="48sp"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="254dp" />
+        android:textStyle="@string/app_name"
+        app:barrierMargin="@dimen/cardview_default_elevation"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="34dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

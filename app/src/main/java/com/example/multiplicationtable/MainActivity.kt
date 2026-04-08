@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         // Created an on click listener for multiply button
         multiplybtn.setOnClickListener {
             // Create an intent to go to the multiply activity
-            val intent = Intent(this, TableDisplay.kt:: class.java)
+            val intent = Intent(this, MainActivity2::class.java)
             //added the table number to the intent
             intent.putExtra("tableNumber", numInput.text.toString())
         }

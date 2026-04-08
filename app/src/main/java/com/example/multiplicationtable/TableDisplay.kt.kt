@@ -26,7 +26,7 @@ class MainActivity2 : AppCompatActivity() {
         // setting the text of the table to the table number times 1 to 10
         Table.text = timesDisplay
         // while loop to display the table
-        while (counter <= 10) {
+        while (counter <= 20) {
             // skip 3
             if (counter == 3) {
                 counter++
@@ -43,9 +43,20 @@ class MainActivity2 : AppCompatActivity() {
             5x7=35
             5x8=40
             5x9=45
+            5x10=50
+            5x11=55
+            5x12=60
+            5x13=65
+            5x14=70
+            5x15=75
+            5x16=80
+            5x17=85
+            5x18=90
+            5x19=95
+            5x20=100
             */
             timesDisplay += "$tableNumber x $counter = $answer\n"
-            // increasing counter 
+            // increasing counter
             counter++
 
         }
